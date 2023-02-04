@@ -23,11 +23,11 @@ $ composer require shiftonelabs/laravel-sqs-fifo-queue
 
 Once composer has been updated and the package has been installed, the service provider will need to be loaded.
 
-#### Laravel 5.5+, 6.x, 7.x, 8.x (5.5, 5.6, 5.7, 5.8, 6.x, 7.x, 8.x)
+#### Laravel 5.5+, 6.x, 7.x, 8.x (5.5, 5.6, 5.7, 5.8, 6.x, 7.x, 8.x, 9.x)
 
 This package uses auto package discovery. The service provider will automatically be registered.
 
-#### Laravel 5.0 - 5.4
+#### Laravel 5.1 - 5.4
 
 Open `config/app.php` and add following line to the providers array:
 
